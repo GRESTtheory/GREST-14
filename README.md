@@ -6,18 +6,18 @@ This repository is the official source of truth for the **GREST Effective Field 
 To ensure reproducibility, all tests use the following fixed values:
 * **H0**: 73.0 km/s/Mpc
 * **c**: 299,792,458 m/s
-* **a0**: 1.129e-10 m/s^2 (Calculated as (c * H0) / 2π)
+* **a0**: 1.129e-10 m/s² (Calculated as (c * H0) / 2π)
 
 ## Governing Formula
-Observed acceleration ($g_{obs}$) is derived from Newtonian acceleration ($g_N$):
-$$g_{obs} = \sqrt{g_N^2 + g_N a_0}$$
+Observed acceleration ($g_{\mathrm{obs}}$) is derived from Newtonian acceleration ($g_N$):
+$$g_{\mathrm{obs}} = \sqrt{g_N^2 + g_N a_0}$$
 
 ## Validation Results
 
 ### 1. Galactic Scale (RAR)
 The Radial Acceleration Relation (RAR) shows the transition from Newtonian gravity to the GREST regime at low accelerations for all galactic systems, including high-mass and low-mass (dark matter deficient) galaxies.
 
-![RAR Validation](grest_rar_validation.png)
+![RAR Validation](./grest_rar_validation.png)
 
 | System | Observed | GREST Predicted | Accuracy | Source |
 | :--- | :--- | :--- | :--- | :--- |
@@ -28,7 +28,7 @@ The Radial Acceleration Relation (RAR) shows the transition from Newtonian gravi
 ### 2. Stellar Scale (Wide Binaries)
 GREST predicts the gravity boost observed in Gaia DR3 wide binary data beyond 10 kAU.
 
-![Wide Binary Boost](grest_wide_binary_boost.png)
+![Wide Binary Boost](./grest_wide_binary_boost.png)
 
 * **Gaia Wide Binaries**: Predicts a **2.19x** gravity boost at 20 kAU, aligning with reported anomalous excess velocities (Chae, 2023).
 
@@ -40,4 +40,15 @@ GREST predicts the gravity boost observed in Gaia DR3 wide binary data beyond 10
 * `grest_wide_binary_boost.png`: Visual proof of stellar gravity boost.
 
 ---
-**DOI**: [Pending Zenodo Submission]
+
+## DOI and Zenodo
+The official version of the paper is hosted on Zenodo. You can cite the paper using the DOI below:
+**DOI**: [10.5281/zenodo.18484663](https://doi.org/10.5281/zenodo.18484663)
+
+For full access to the source code and data, please visit the [GitHub repository](https://github.com/GRESTtheory/GREST-Engine).
+
+---
+
+## License
+This project is licensed under the terms of the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+
