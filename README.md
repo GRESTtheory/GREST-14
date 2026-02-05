@@ -1,6 +1,6 @@
 # GREST v1.1: Universal Metric Response Validation Package
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18489321.svg)](https://doi.org/10.5281/zenodo.18489321)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18489567.svg)](https://doi.org/10.5281/zenodo.18489567)
 
 ## Overview
 Official validation suite for the **GREST (Quadratic Metric Response)** model. GREST provides a unified explanation for gravitational anomalies across six distinct physical scales without the requirement for Dark Matter.
@@ -27,3 +27,4 @@ $$g_{obs} = \sqrt{g_N^2 + g_N a_0}$$
 
 ## Citation
 Gresty, J. (2026). GREST v1.1: Universal Metric Response Validation Package. Zenodo. https://doi.org/10.5281/zenodo.18489321
+
