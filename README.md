@@ -9,21 +9,27 @@
 
 ---
 
-## 🌌 Overview
-GREST provides a unified explanation for gravitational anomalies across physical scales without the requirement for Dark Matter. By introducing a universal vacuum acceleration scale ($a_0 \approx 1.129 \times 10^{-10} m/s^2$), the framework defines gravity as a "stiffening" metric response in low-acceleration environments.
+Overview
 
-This repository contains the **Official Validation Suite**, which tests the GREST formula against 12 distinct astrophysical systems (from Black Holes to Galaxy Clusters), achieving a mean accuracy of **96.53%**.
+GREST provides a unified explanation for gravitational anomalies across physical scales without the requirement for Dark Matter. By introducing a universal vacuum acceleration scale (a0 approx 1.2 x 10^-10 m/s2), the framework defines gravity as a "stiffening" metric response in low-acceleration environments.
 
-## 📂 Repository Contents
-* **`GREST_Theory_and_Validation.pdf`** - The full scientific paper detailing the derivation and proofs.
-* **`GREST_Universal_Calculator.py`** - Interactive tool to calculate $g_{obs}$ from any Newtonian input.
-* **`validation_suite.py`** - Automated script that runs the "Deep Scan" verification against the CSV data.
-* **`systems_data.csv`** - The raw dataset containing observed values for M87*, Andromeda, Bullet Cluster, etc.
-* **`GREST_Validation_Results.txt`** - The official scorecard output.
+This repository contains the Official Validation Suite, which tests the GREST formula against 29 distinct astrophysical systems (from Black Holes to Galaxy Clusters), achieving a mean accuracy of 97.4%.
 
-## 🚀 Quick Start
+📂 Repository Contents
+
+GREST_Theory_and_Validation.pdf - The full scientific paper detailing the derivation and proofs.
+
+GREST_Universal_Calculator.py - Interactive tool to calculate g_obs from any Newtonian input.
+
+validation_suite.py - Automated script that runs the "Deep Scan" verification against the CSV data.
+
+systems_data.csv - The raw dataset containing observed values for M87*, Andromeda, Bullet Cluster, etc.
+
+GREST_Validation_Results.txt - The official scorecard output.
+
+🚀 Quick Start
+
 To replicate the validation results:
 
-```bash
-# Run the automated validation suite
+# Run the automated validation
 python validation_suite.py
